@@ -1,0 +1,272 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+.container
+{
+    width:100%;
+    height:5630px;
+    background-color:#000;
+}
+.container .header
+{
+    display: flex;
+    width:100%;
+    height:60px;
+    padding:5px 80px 5px 80px;
+    background-color:#111;
+}
+.container .header .logo
+{
+    width:10%;
+    height:50px;
+    background-image:url('https://informitv.com/wordpress/wp-content/uploads/2019/01/IMDb.png');
+    background-size:120px 60px;
+    background-repeat:no-repeat;
+}
+.container .header .sidebar
+{
+    width:10%;
+    height:30px;
+
+}
+.container .header .sidebar #bars-icon
+{
+    margin-top:18px;
+    font-size:18px;
+    color:#fff;
+}
+.container .header .sidebar .sidebar-menu
+{
+    margin-top: 18px;
+    margin-left:10px;
+    font-size:18px;
+    font-weight: bold;
+    color:#fff;
+}
+.container .header  .search
+{
+    position: relative;
+    display: flex;
+    width:50%;
+    height:50px;
+    margin-top:10px;
+}
+.container .header .search .search-all
+{
+    width:8%;
+    height:35px;
+    padding-top:5px;
+    padding-left:10px;
+    background-color: #fff;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    border-right:1px solid #000;
+    font-family: sans-serif;
+    font-size:18px;
+    font-weight:bold;
+    color:#000;
+}
+.container .header  #caretdown
+{
+    margin-left:5px;
+}
+.container .header .search .search-input
+{
+    width:95%;
+    height:35px;
+    border: none;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    background-color: #fff;
+}
+.container .header .search .search-icon #search-icon
+{
+    position: absolute;
+    top:10px;
+    right:10px;
+    width:30px;
+    height:35px;
+    font-size:18px;
+}
+.container .header  .navbar
+{
+    width:30%;
+    height:50px;
+    margin-top:10px;
+    padding-left:20px;
+}
+.container .header  .navbar ul
+{
+    display: flex;
+    list-style-type: none;
+}
+.container .header  .navbar ul li
+{
+    display:block;
+    width:120px;
+    height:35px;
+    border-radius:10px;
+    margin-left:10px;
+    padding-top:5px;
+    text-align: center;
+}
+.container .header  .navbar ul li:hover
+{
+    background-color:#555;
+}
+.container .header  .navbar ul li:first-child::after
+{
+    content:'Pro';
+    font-family: sans-serif;
+    font-size:15px;
+    font-weight:bold;
+    color:rgb(71, 147, 213)
+}
+.container .header  .navbar ul li a
+{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size:15px;
+    font-weight:bold;
+    color: #fff;
+}
+.container .main
+{
+    width:100%;
+    height:5200px;
+    padding:0 100px 0 100px;
+}
+.container .section1
+{
+    display: flex;
+    width:100%;
+    height:600px;
+    margin-top:20px;
+}
+.container .section1 .slider
+{
+    position: relative;
+    width:65%;
+    height:600px;
+    box-shadow:0 -150px 60px 5px #000 inset;
+    background-size: cover;
+}
+
+.container .section1 .upnext
+{
+    
+    margin-left:20px;
+}
+.container .section1 .upnext .upnext-title
+{
+    font-family: sans-serif;
+    font-size:18px;
+    font-weight:bold;
+    color:rgb(206, 158, 15)
+}
+.container .section1 .upnext .upnext-content
+{
+    
+    width:450px;
+    height:530px;
+    margin-top:20px;
+    padding:10px;
+    background:linear-gradient(#111,#000)
+}
+.container .section1 .upnext .upnext-content .upnext-card
+{
+    display:flex;
+    width:550px;
+    height:150px;
+    margin-top:15px;
+}
+.container .section1 .upnext .upnext-content .upnext-card1 .upnext-img
+{
+    width:100px;
+    height:150px;
+    background-image:url('https://m.media-amazon.com/images/M/MV5BNDAzMzlkNzMtNjlhOC00YjNjLWFiZmEtNmVhZTA4ZjI3OTllXkEyXkFqcGdeQXVyNDYzNjU3ODM@._V1_QL75_UX280_CR0,0,280,414_.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container .section1 .upnext .upnext-content .upnext-card2 .upnext-img
+{
+    width:100px;
+    height:150px;
+    background-image:url('https://m.media-amazon.com/images/M/MV5BYTZmMmQ4OWYtM2JmNC00NzY0LWJhODUtOTRmMWMyOTU4OWQ4XkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_QL75_UX280_CR0,0,280,414_.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container .section1 .upnext .upnext-content .upnext-card3 .upnext-img
+{
+    width:100px;
+    height:150px;
+    background-image:url('https://m.media-amazon.com/images/M/MV5BMDA3MmM4MDEtM2YwYS00NzliLWFlNzctYTBmZGE1NjFiM2U1XkEyXkFqcGdeQXVyODQ4Mjc2NDM@._V1_QL75_UX280_CR0,0,280,414_.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container .section1 .upnext .upnext-content .upnext-card .upnext-info .upnext-info-up .playicon
+{
+    display: inline-block;
+    width:35px;
+    height:35px;
+    margin-top:10px;
+    margin-left:30px;
+    padding:6px;
+    border:1px solid #fff;
+    border-radius:50%;
+    text-align: center;
+    color:#fff;
+}
+.container .section1 .upnext .upnext-content .upnext-card .upnext-info .upnext-info-up .playicon:hover
+{
+    color:rgb(237, 184, 114);
+    border-color: rgb(237, 184, 114);
+}
+
+.container .section1 .upnext .upnext-content .upnext-card .upnext-info .upnext-info-up .playicon i
+{
+    font-size:15px;
+}
+.container .section1 .upnext .upnext-content .upnext-card .upnext-info .upnext-info-up .time
+{
+    display: inline-block;
+    margin-left:20px;
+    color:#fff;
+}
+.container .section1 .upnext .upnext-content .upnext-card .upnext-info .upnext-info-down
+{
+    margin-top:20px;
+    margin-left:30px;
+    color:#fff;
+    text-transform: capitalize;
+    line-height:22px;
+    font-family:sans-serif;
+    font-size:20px;
+}
+.container .section1 .upnext .upnext-content .upnext-card .upnext-info .upnext-info-down-bottom
+{
+    margin-top:20px;
+    color:rgb(141, 135, 135);
+    text-transform: capitalize;
+    line-height:22px;
+    font-family:sans-serif;
+    font-size:15px;
+}
+.container .section1 .upnext .upnext-content .upnext-card2 .upnext-info
+{
+    margin-top:10px;
+}
+.container .section1 .upnext .upnext-content .upnext-card3 .upnext-info
+{
+    margin-top:20px;
+}
+.container .section1 .upnext .upnext-link
+{
+    color:#fff;
+    font-family:sans-serif;
+    font-size:25px;
+}
