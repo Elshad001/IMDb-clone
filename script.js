@@ -21,3 +21,21 @@ function slideImg()
     }
 
     window.onload=slideImg;
+
+    const prevBtn=document.querySelector('#prevBtn');
+const nextBtn=document.querySelector('#nextBtn');
+const section2Cards=document.querySelector('#section2Cards');
+const cards=document.querySelectorAll('#card')
+
+nextBtn.addEventListener('click',displayNext);
+prevBtn.addEventListener('click',displayPrev);
+let scrollAmount=900;
+function displayNext()
+{
+    section2Cards.scrollLeft+=scrollAmount;
+}
+
+function displayPrev()
+{
+    section2Cards.scrollLeft-=scrollAmount;
+}
