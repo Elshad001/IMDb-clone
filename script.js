@@ -23,19 +23,37 @@ function slideImg()
     window.onload=slideImg;
 
     const prevBtn=document.querySelector('#prevBtn');
-const nextBtn=document.querySelector('#nextBtn');
-const section2Cards=document.querySelector('#section2Cards');
-const cards=document.querySelectorAll('#card')
+    const nextBtn=document.querySelector('#nextBtn');
+    const section2Cards=document.querySelector('#section2Cards');
+    let scrollAmount=900;
 
-nextBtn.addEventListener('click',displayNext);
-prevBtn.addEventListener('click',displayPrev);
-let scrollAmount=900;
-function displayNext()
-{
-    section2Cards.scrollLeft+=scrollAmount;
-}
+    nextBtn.addEventListener('click',()=>
+    {
+        section2Cards.scrollLeft+=scrollAmount
+    });
+    
+    prevBtn.addEventListener('click',()=>
+    {
+        section2Cards.scrollLeft-=scrollAmount
+    });
+    
+    
 
-function displayPrev()
+const sec4PrevBtn=document.querySelector('#sec4-prevBtn');
+const sec4NextBtn=document.querySelector('#sec4-nextBtn');
+const section4Cards=document.querySelector('#section4-cards');
+
+let scrollAmount2=1550;
+
+sec4NextBtn.addEventListener('click',()=>
+    {
+        section4Cards.scrollLeft+=scrollAmount2;
+    });
+
+sec4PrevBtn.addEventListener('click',()=>
 {
-    section2Cards.scrollLeft-=scrollAmount;
-}
+    section4Cards.scrollLeft-=scrollAmount2;
+});
+
+
+
