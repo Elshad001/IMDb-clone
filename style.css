@@ -1156,3 +1156,250 @@
 {
     background-color:#333;
 }
+.container .section7
+{
+    width:100%;
+    height:400px;
+    margin-top:30px;
+}
+.container .section7 .section7-title1
+{
+    width:100%;
+    height:50px;
+    color:rgb(206, 158, 15);
+    font-family: sans-serif;
+    font-size:30px;
+}
+.container .section7 .section7-title2
+{
+    width:100%;
+    height:30px;
+    margin-top:20px;
+    padding-left:5px;
+    border-left:5px solid rgb(206, 158, 15);
+    color:#fff;
+    font-family: sans-serif;
+    font-size:25px;
+}
+.container .section7 .section7-text
+{
+    width:100%;
+    height:30px;
+    margin-top:10px;
+    color:#888;
+    font-family: sans-serif;
+    font-size:16px;
+}
+.container .section7 .section7-title1 .chevron
+{
+   
+    margin-top:3px;
+    margin-left:15px;
+    font-size:20px;
+    color:#fff;
+}
+.container .section7 .section7-title1 .chevron:hover
+{
+    color:rgb(158, 136, 14);
+}
+.container .section7 .section7-info
+{
+    display:flex;
+    justify-content:space-between;
+    margin-top:20px;
+    width:1000px;
+    height:400px;
+}
+.container .section7 .section7-info-part1
+{
+    width:350px;
+    height:400px;
+    
+}
+.container .section7 .section7-info-part1 .movie
+{
+    display: flex;
+    width:350px;
+    height:50px;
+    margin-top:10px;
+    padding:10px 20px 20px 10px;
+}
+.container .section7 .section7-info-part2 .movie
+{
+    display: flex;
+    width:350px;
+    height:50px;
+    margin-top:10px;
+    padding:10px;
+}
+.container .section7 .section7-info-part1 .movie-2
+{
+    display: flex;
+    width:650px;
+    height:50px;
+    background-image:linear-gradient(to right,rgb(0,0,0),rgba(20,20,20))
+}
+.container .section7 .section7-info-part2 .movie-4
+{
+    display: flex;
+    width:650px;
+    height:50px;
+    background-image:linear-gradient(to right,rgb(0,0,0),rgba(20,20,20))
+}
+.container .section7 .section7-info-part2 .movie-6
+{
+    display: flex;
+    width:650px;
+    height:50px;
+    background-image:linear-gradient(to right,rgb(0,0,0),rgba(35,35,35))
+}
+.container .section7 .section7-info-part1 .no
+{
+    width:20px;
+    height:20px;
+    color:#fff;
+    margin-top:10px;
+    border-right:2px solid rgb(206, 158, 15);
+    font-size:16px;
+    font-weight:bold;
+}
+.container .section7 .section7-info-part1 .bookmark
+{
+    position: relative;
+    width:50px;
+    height:50px;
+    margin-left:10px;
+    color:#222;
+    font-size:38px;
+}
+.container .section7 .section7-info .section7-info-part1 .plus
+{
+    position: absolute;
+    top:2px;
+    left:8px;
+    color:#fff;
+    font-size:25px;
+    font-weight: bolder;
+}
+.container .section7 .section7-info-part1 .movie-name
+{
+    color:#fff;
+    font-family: sans-serif;
+    font-size:15px;
+    font-weight:bold;
+}
+
+.container .section7 .section7-info-part2
+{
+    width:350px;
+    height:400px;
+}
+.container .section7 .section7-info-part2 .movie-1
+{
+    display: flex;
+    width:350px;
+    height:60px;
+}
+.container .section7 .section7-info-part2 .no
+{
+    width:20px;
+    height:20px;
+    color:#fff;
+    margin-top:10px;
+    border-right:2px solid rgb(206, 158, 15);
+    font-size:16px;
+    font-weight:bold;
+}
+.container .section7 .section7-info-part2 .bookmark
+{
+    position: relative;
+    width:50px;
+    height:50px;
+    margin-left:10px;
+    color:#222;
+    font-size:38px;
+}
+.container .section7 .section7-info .section7-info-part2 .plus
+{
+    position: absolute;
+    top:2px;
+    left:8px;
+    color:#fff;
+    font-size:25px;
+    font-weight: bolder;
+}
+.container .section7 .section7-info-part2 .movie-name
+{
+    color:#fff;
+    font-family: sans-serif;
+    font-size:15px;
+    font-weight:bold;
+}
+.container .section8
+{
+    width:100%;
+    height:350px;
+}
+
+.container .section8 .section8-title
+{
+    width:100%;
+    height:30px;
+    margin-top:50px;
+    padding-left:5px;
+    border-left:5px solid rgb(206, 158, 15);
+    color:#fff;
+    font-family: sans-serif;
+    font-size:25px;
+}
+.container .section8 .section8-text
+{
+    width:100%;
+    height:30px;
+    margin-top:10px;
+    color:#888;
+    font-family: sans-serif;
+    font-size:16px; 
+}
+.container .section8 .section8-cards
+{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    height:350px;
+    overflow: hidden;
+}
+.container .section8 .section8-cards .section8-card 
+{
+    width:400px;
+    height:300px;
+    margin-left:30px;
+}
+.container .section8 .section8-cards .section8-card .section8-card-img
+{
+    width:400px;
+    height:220px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container .section8 .section8-cards .section8-card .section8-card1-img
+{
+    background-image:url('https://m.media-amazon.com/images/M/MV5BNDk3NTdkYzMtMjhkMS00NjQ3LTkxMWEtMjg5NWI5MWNhOWM0XkEyXkFqcGdeQVRoaXJkUGFydHlJbmdlc3Rpb25Xb3JrZmxvdw@@._V1_.jpg')
+}
+.container .section8 .section8-cards .section8-card .section8-card2-img
+{
+    background-image:url('https://www.justwatch.com/images/backdrop/202702595/s640/the-wishmas-tree')
+}
+.container .section8 .section8-cards .section8-card .section8-card3-img
+{
+    background-image:url('https://m.media-amazon.com/images/M/MV5BODc1YWI2MTQtNmZiYS00ZjdhLWJjMDItNzNlZTgyZjY0NTRjXkEyXkFqcGdeQXVyOTg4MDYyNw@@._V1_FMjpg_UX1000_.jpg')
+}
+.container .section8 .section8-cards .section8-card .section8-card-info
+{
+    width:100%;
+    height:30px;
+    margin-top:10px;
+    color:#fff;
+    font-family: sans-serif;
+    font-size:18px; 
+}
