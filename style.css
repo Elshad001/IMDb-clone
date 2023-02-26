@@ -803,6 +803,356 @@
 }
 .container .section5
 {
+    position: relative;
     width:100%;
     height:500px;
+    margin-top:100px;
+}
+.container .section5 .section5-title1
+{
+    width:100%;
+    height:50px;
+    color:rgb(206, 158, 15);
+    font-family: sans-serif;
+    font-size:30px;
+}
+.container .section5 .section5-title2
+{
+    width:100%;
+    height:30px;
+    margin-top:50px;
+    padding-left:5px;
+    border-left:5px solid rgb(206, 158, 15);
+    color:#fff;
+    font-family: sans-serif;
+    font-size:25px;
+}
+.container .section5 .section5-text
+{
+    width:100%;
+    height:30px;
+    margin-top:10px;
+    color:#888;
+    font-family: sans-serif;
+    font-size:16px; 
+}
+.container .section5 .prevButton
+{
+  
+    top:250px;
+    left:25;
+}
+.container .section5 .nextButton
+{ 
+    top:250px;
+    right:45px;
+}
+.container .section5 .section5-cards
+{
+   
+    display:flex;
+    justify-content: space-between;
+    width:95%;
+    height:350px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.container .section5 .section5-cards .section5-card 
+{
+   
+    min-width:400px;
+    height:300px;
+    margin-left:25px;
+}
+.container .section5 .section5-cards .section5-card .section5-card-img
+{
+    width:400px;
+    height:220px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container .section5 .section5-cards .section5-card:first-child
+{
+    margin-left:0;
+}
+.container .section5 .section5-cards .section5-card .section5-card1-img
+{
+    background-image:url('https://m.media-amazon.com/images/M/MV5BMjg0NmI2MWQtZjg1YS00NDdkLWI4ZTYtYTJkMDA5YzBiMzcyXkEyXkFqcGdeQWFsZWxvZw@@._V1_QL75_UX500_CR0,0,500,281_.jpg')
+}
+.container .section5 .section5-cards .section5-card .section5-card2-img
+{
+    background-image:url('https://m.media-amazon.com/images/M/MV5BYjg0YjFlNGQtYmFmZi00ZjMxLWE4NTAtMDBlYzFkMWQ3ZTI1XkEyXkFqcGdeQWFsZWxvZw@@._V1_QL75_UX500_CR0,0,500,281_.jpg')
+}
+.container .section5 .section5-cards .section5-card .section5-card3-img
+{
+    background-image:url('https://m.media-amazon.com/images/M/MV5BNWVkMGViNjItMDY2ZS00NzZmLWFhMzctOTRjZDlmYmUwODE2XkEyXkFqcGdeQWplZmZscA@@._V1_.jpg')
+}
+.container .section5 .section5-cards .section5-card .section5-card4-img
+{
+    background-image:url('https://m.media-amazon.com/images/M/MV5BYjU3N2Q1OTEtOTQ3ZC00MGNiLWI4MDMtMGQ1ODllNDZmNzRmXkEyXkFqcGdeQWRvb2xpbmhk._V1_.jpg')
+}
+.container .section5 .section5-cards .section5-card .section5-card5-img
+{
+    background-image:url('https://m.media-amazon.com/images/M/MV5BODdiZTI4ZmUtODEyMi00ZDU3LWI1OWEtNGNmOTUwZjI2NTRhXkEyXkFqcGdeQXJoYW5uYWg@._V1_QL75_UX500_CR0,0,500,281_.jpg')
+}
+.container .section5 .section5-cards .section5-card .section5-card6-img
+{
+    background-image:url('https://m.media-amazon.com/images/M/MV5BZDExN2ZiNTItMGZmMC00N2E3LTliZDYtYTcyMDgzNDI1OWQ5XkEyXkFqcGdeQXNhcmFocmVi._V1_QL75_UX500_CR0,0,500,281_.jpg')
+}
+.container .section5 .section5-cards .section5-card .section5-card-info
+{
+    width:100%;
+    height:30px;
+    margin-top:10px;
+    color:#fff;
+    font-family: sans-serif;
+    font-size:18px; 
+}
+.container .section6
+{
+    position: relative;
+    width:100%;
+    height:700px;
+}
+.container .section6 .section6-title1
+{
+    width:100%;
+    height:50px;
+    color:rgb(206, 158, 15);
+    font-family: sans-serif;
+    font-size:30px;
+}
+.container .section6 .section6-title2
+{
+    width:100px;
+    height:30px;
+    margin-top:50px;
+    padding-left:5px;
+    border-bottom:3px solid rgb(206, 158, 15);
+    color:#fff;
+    font-family: sans-serif;
+    font-size:12px;
+}
+.container .section6 .section6-text
+{
+    width:100%;
+    height:30px;
+    margin-top:20px;
+    color:#fff;
+    font-family: sans-serif;
+    font-size:16px; 
+}
+
+.container .section6 .section6-cards
+{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height:500px;
+    margin-top:30px;
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+}
+.container .section6 .section6-card
+{
+    min-width:200px;
+    height:350px;
+    margin-top:30px;
+    margin-left:20px;
+}
+.container .section6 .section6-card1
+{
+    margin-left:0;
+}
+.container .section6 .prevButton
+{
+  
+    top:400px;
+    left:15;
+}
+.container .section6 .nextButton
+{ 
+    top:400px;
+    right:-10px;
+}
+.container .section6 .section6-card .card-img
+{
+    width:200px;
+    height:250px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.container .section6 .section6-card .card1-img
+{
+    background-image:url('https://m.media-amazon.com/images/M/MV5BYzRjZWQ5YzAtY2Q1Ny00MmY0LWFmMmItNjEzNGEwNDdjYWExXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg');
+}
+.container .section6 .section6-card .card-info
+{
+    width:200px;
+    height:180px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    padding:10px;
+    background-color: #222;
+}
+.container .section6 .section6-card .card-raiting
+{
+    width:200px;
+    height:20px;
+    margin-left:5px;
+    color:#fff;
+}
+.container .section6 .section6-card .card-raiting .star-1
+{
+    color:rgb(206, 158, 15);
+}
+.container .section6 .section6-card .card-raiting .star-2
+{
+    margin-left:20px;
+    color:rgb(71, 147, 213);
+}
+.container .section6 .section6-card .card-name
+{
+    width:150px;
+    height:30px;
+    margin-top:15px;
+    margin-left:5px;
+    color:#fff;
+    font-family: sans-serif;
+    font-size:15px;
+    font-weight:bold;
+}
+.container .section6 .section6-card .card-btn-1
+{
+    width:158px;
+    height:35px;
+    margin-top:15px;
+    border: none;
+    border-radius:5px;
+    background-color:#444;
+    color:rgb(71, 147, 213);
+    font-family: sans-serif;
+    font-size:15px;
+    font-weight:bold;
+    text-align: center;
+    
+}
+.container .section6 .section6-card .card-btn-1:hover
+{
+    background-color:#555;
+}
+.container .section6 .section6-card .card-btn-2
+{
+    width:100px;
+    height:35px;
+    margin-top:10px;
+    margin-left:20px;
+    padding-top:8px;
+    border: none;
+    border-radius:5px;
+    background-color:transparent;
+    color:#fff;
+    font-family: sans-serif;
+    font-size:15px;
+    font-weight:bold;
+    text-align: center;
+    
+}
+.container .section6 .section6-card .card-btn-2:hover
+{
+    background-color:#555;
+}
+.container .section6 .section6-card .card2-img
+{
+    background-image:url('https://m.media-amazon.com/images/M/MV5BMzJhYjZkYzMtN2U3Mi00MGUzLWIwYWItN2RjMGY1OTBlMDJkXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_FMjpg_UX1000_.jpg');
+}
+.container .section6 .section6-card .card3-img
+{
+    background-image:url('https://m.media-amazon.com/images/M/MV5BNThlNGZjZDQtYzJjMi00MzM4LWFkNjctNDMwZmFjNWJkM2I4XkEyXkFqcGdeQXVyMTUzNTgzNzM0._V1_FMjpg_UX1000_.jpg');
+}
+.container .section6 .section6-card .card4-img
+{
+    background-image:url('https://m.media-amazon.com/images/M/MV5BZGY4ZDFiYWYtYzMwZS00ZmVlLWEwOGEtM2I1ZjcxNTFjMTRiXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg');
+}
+.container .section6 .section6-card .card5-img
+{
+    background-image:url('https://m.media-amazon.com/images/M/MV5BOTEyNDJhMDAtY2U5ZS00OTMzLTkwODktMjU3MjFkZWVlMGYyXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_FMjpg_UX1000_.jpg');
+}
+.container .section6 .section6-card .card6-img
+{
+    background-image:url('https://m.media-amazon.com/images/M/MV5BYzJjZDkxMDgtZDBkNC00ZGJlLTk0NzgtZDhjZGIxZDAzZDY2XkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg');
+}
+.container .section6 .section6-card .card7-img
+{
+    background-image:url('https://m.media-amazon.com/images/M/MV5BNTEyZTE2YmUtZjQ4YS00ZWZkLWJmNmItODRjYTJiMzM1ZTA3XkEyXkFqcGdeQXVyMTM1MDExOTE2._V1_.jpg');
+}
+.container .section6 .section6-card .card8-img
+{
+    background-image:url('https://m.media-amazon.com/images/M/MV5BZmM4MWIwMGItYzA3ZC00MDY4LTlhNWQtY2MwOTViODk1M2U1XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg');
+}
+.container .section6 .section6-card .card9-img
+{
+    background-image:url('https://m.media-amazon.com/images/M/MV5BYTdiOTIyZTQtNmQ1OS00NjZlLWIyMTgtYzk5Y2M3ZDVmMDk1XkEyXkFqcGdeQXVyMTAzMDg4NzU0._V1_FMjpg_UX1000_.jpg');
+}
+.container .section6 .section6-card .card10-img
+{
+    background-image:url('https://m.media-amazon.com/images/M/MV5BM2NlZDI0ZDktNTg5OS00ZjQ1LWI4MDEtN2I0MDE5NWRiNzA4XkEyXkFqcGdeQXVyMTY5Nzc4MDY@._V1_FMjpg_UX1000_.jpg');
+}
+.container .section6 .section6-card .card11-img
+{
+    background-image:url('https://m.media-amazon.com/images/M/MV5BZGM1MzczNmQtMjBmYS00NTRhLWI0MzctNTFkZDc4OGUyODdjXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_FMjpg_UX1000_.jpg');
+}
+.container .section6 .section6-card .card12-img
+{
+    background-image:url('https://m.media-amazon.com/images/M/MV5BNTdiMWI1ZmUtOTk3OS00ZDYxLThjZWYtYjIwNWJkNTkxMmJlXkEyXkFqcGdeQXVyMTQyODg5MjQw._V1_FMjpg_UX1000_.jpg');
+}
+.container .section6 .section6-info 
+{
+    margin-top:100px;
+}
+.container .section6 .section6-info .section6-info-title
+{
+    width:100%;
+    height:30px;
+    padding-left:5px;
+    border-left:5px solid rgb(206, 158, 15);
+    color:#fff;
+    font-family: sans-serif;
+    font-size:25px;
+}
+.container .section6 .section6-info .section6-info-text
+{
+    width:100%;
+    height:30px;
+    margin-top:10px;
+    color:#888;
+    font-family: sans-serif;
+    font-size:16px;
+}
+.container .section6 .section6-info .section6-info-buttons
+{
+    display:flex;
+    justify-content: space-between;
+    width:600px;
+    height:50px;
+    margin-top:20px;
+}
+.container .section6 .section6-info .section6-info-btn
+{
+    width:275px;
+    height:41px;
+    padding-top:3px;
+    background-color: transparent;
+    border:2px solid #fff;
+    color:#fff;
+    font-family: sans-serif;
+    font-size:16px;
+    font-weight: bolder;
+    text-align: center;
+}
+.container .section6 .section6-info .section6-info-btn:hover
+{
+    background-color:#333;
 }

@@ -56,4 +56,35 @@ sec4PrevBtn.addEventListener('click',()=>
 });
 
 
+const sec5PrevBtn=document.querySelector('#sec5-prevBtn');
+const sec5NextBtn=document.querySelector('#sec5-nextBtn');
+const section5Cards=document.querySelector('#section5-cards');
 
+let scrollAmount3=1550;
+
+sec5NextBtn.addEventListener('click',()=>
+    {
+        section5Cards.scrollLeft+=scrollAmount2;
+    });
+
+sec5PrevBtn.addEventListener('click',()=>
+    {
+        section5Cards.scrollLeft-=scrollAmount2;
+    });
+
+    const sec6PrevBtn=document.querySelector('#sec6-prevBtn');
+    const sec6NextBtn=document.querySelector('#sec6-nextBtn');
+    const section6Cards=document.querySelector('#section6-cards');
+    
+    let scrollAmount4=1550;
+    
+    sec6NextBtn.addEventListener('click',()=>
+        {
+            section6Cards.scrollLeft+=scrollAmount4;
+        });
+    
+    sec6PrevBtn.addEventListener('click',()=>
+        {
+            section6Cards.scrollLeft-=scrollAmount4;
+        });
+    
