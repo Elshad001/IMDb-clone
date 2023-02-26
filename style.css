@@ -1403,3 +1403,212 @@
     font-family: sans-serif;
     font-size:18px; 
 }
+.container .section9
+{
+    width:100%;
+    height:350px;
+}
+
+.container .section9 .section9-title
+{
+    width:100%;
+    height:30px;
+    margin-top:50px;
+    padding-left:5px;
+    border-left:5px solid rgb(206, 158, 15);
+    color:#fff;
+    font-family: sans-serif;
+    font-size:25px;
+}
+.container .section9 .section9-text
+{
+    width:100%;
+    height:30px;
+    margin-top:10px;
+    color:#888;
+    font-family: sans-serif;
+    font-size:16px; 
+}
+.container .section9 .section9-cards
+{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height:300px;
+    margin-top:50px;
+}
+.container .section9 .section9-cards .section9-card 
+{
+    width:180px;
+    height:200px;
+}
+.container .section9 .section9-cards .section9-card-img
+{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.container .section9 .section9-cards .section9-card1-img
+{
+    background-image:url('https://m.media-amazon.com/images/M/MV5BMTY5NjgyNDU3OV5BMl5BanBnXkFtZTgwNzA4NDczNjE@._V1_FMjpg_UX1000_.jpg');
+}
+.container .section9 .section9-cards .section9-card2-img
+{
+    background-image:url('https://m.media-amazon.com/images/M/MV5BZmYwODIzZmEtOTAxZi00NzM2LWEwMjItZmJlMmI3ZDM2ZTU4XkEyXkFqcGdeQXVyMTkyNTc4MDE@._V1_.jpg');
+}
+.container .section9 .section9-cards .section9-card3-img
+{
+    background-image:url('https://m.media-amazon.com/images/M/MV5BMzg2NTI5NzQ1MV5BMl5BanBnXkFtZTgwNjI1NDEwMDI@._V1_FMjpg_UX1000_.jpg');
+}
+.container .section9 .section9-cards .section9-card4-img
+{
+    background-image:url('https://m.media-amazon.com/images/M/MV5BMzliNzA0OTktMTE3Ny00OWY2LTllY2ItY2UwZmI2OGRmYTI2XkEyXkFqcGdeQXVyMTM5NDMzMjY@._V1_FMjpg_UX1000_.jpg');
+}
+.container .section9 .section9-cards .section9-card5-img
+{
+    background-image:url('https://m.media-amazon.com/images/M/MV5BMWJmYWY4NjQtMTY0ZS00YTZhLTkxZmQtM2I3NzljNDAzZGJjXkEyXkFqcGdeQXVyMzkyMDA1NzI@._V1_FMjpg_UX1000_.jpg');
+}
+.container .section9 .section9-cards .section9-card6-img
+{
+    background-image:url('https://m.media-amazon.com/images/M/MV5BODgwMjMwMzE2OV5BMl5BanBnXkFtZTcwOTAzMTgxMw@@._V1_.jpg');
+}
+.container .section9 .section9-cards .section9-card-info
+{
+    margin-top:15px;
+    margin-left:-15px;
+    font-family:sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    color:#fff;
+    line-height:20px;
+    text-align: center;
+}
+.container .section10
+{
+    width:100%;
+    height:200px;
+}
+
+.container .section10 .section10-title
+{
+    width:100%;
+    height:30px;
+    margin-top:50px;
+    padding-left:5px;
+    border-left:5px solid rgb(206, 158, 15);
+    color:#fff;
+    font-family: sans-serif;
+    font-size:25px;
+}
+.container .section10 .section10-cards
+{
+    display:flex;
+    width:100%;
+    height:200px;
+    margin-top:30px;
+}
+.container .section10 .section10-cards .section10-card
+{
+    display: flex;
+    width:500px;
+    height:200px;
+}
+.container .section10 .section10-cards .section10-card .section10-card-info
+{
+    width:350px;
+    height:200px;
+    margin-left:20px;
+    color:#fff;
+    line-height:25px;
+    letter-spacing:0.8px;
+    font-family: sans-serif;
+    font-size:16px;
+    font-weight:bold;
+}
+.container .section10 .section10-cards .section10-card .section10-card-info .sp-1
+{
+    font-size:12px;
+}
+.container .section10 .section10-cards .section10-card .section10-card-img
+{
+    width:100px;
+    height:135px;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.container .section10 .section10-cards .section10-card .section10-card1-img
+{
+    background-image:url('https://static01.nyt.com/images/2022/12/14/multimedia/14avatar1-1-6cf3/14avatar1-1-6cf3-mediumSquareAt3X-v3.jpg');
+}
+.container .section10 .section10-cards .section10-card .section10-card2-img
+{
+    background-image:url('https://m.media-amazon.com/images/M/MV5BMTkyMjU0NDk2OF5BMl5BanBnXkFtZTgwMDY4MDE4NTM@._V1_QL75_UY266_CR9,0,180,266_.jpg');
+}
+.container .section10 .section10-cards .section10-card .section10-card3-img
+{
+    background-image:url('https://m.media-amazon.com/images/M/MV5BMWZkYTY0OWMtMjgyMi00NmQ2LTk3MzQtMWUyYzk0MTdjZGI4XkEyXkFqcGdeQXVyMTE0MzQwMjgz._V1_QL75_UY266_CR43,0,180,266_.jpg');
+}
+.container .section10 .section10-buttons
+{
+    display:flex;
+    justify-content: space-between;
+    width:600px;
+    height:30px;
+}
+.container .section10 .section10-btn
+{
+    border:1px solid #888;
+    border-radius:15px;
+    color:#fff;
+    padding:5px 20px 5px 20px;
+    font-family: sans-serif;
+    font-size:16px;
+    font-weight:bold;
+}
+.container .section10 .section10-btn:hover
+{
+    background-color: #333;
+}
+.container .section11
+{
+    width:100%;
+    height:200px;
+}
+
+.container .section11 .section11-title
+{
+    width:100%;
+    height:30px;
+    margin-top:50px;
+    padding-left:5px;
+    color:#fff;
+    font-family: sans-serif;
+    font-size:25px;
+}
+.container .section11 .section11-text
+{
+    width:100%;
+    height:20px;
+    margin-top:30px;
+    padding-left:5px;
+    color:#fff;
+    font-family: sans-serif;
+    font-size:16px;
+}
+.container .section11 .section11-btn
+{
+    width:220px;
+    height:38px;
+    margin:150px;
+    margin-left:550px;
+    padding:5px;
+    border:none;
+    border-radius:5px;
+    color:#111;
+    background-color:rgb(206, 158, 15);
+    font-weight:bold;
+    font-family: sans-serif;
+    font-size:14px;
+}
